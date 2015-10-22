@@ -19,3 +19,11 @@ Some feeds' HTML code is not formatted in the most correct way and currently the
 Right now the plugin is designed to fix issues that appear in Windows Phone 8.1 IE web control, and is known to work with Tiny Tiny RSS WP8 Client. It may fix issues for other WP clients that use the same built-in IE web control. If it does, please notify me so I can add it to the list.
 
 If you're using Windows Phone 8 or 7 and are noticing issues with your feeds please report them too.
+
+## To do:
+* Make the URL protocol fix not stupid ;) Right now it just sticks the `http` in there without checking if that URL is valid
+* Apply the fixes to already downloaded articles.
+
+## Changelog
+v. 1.0
+* Initial release
