@@ -10,12 +10,12 @@ Tiny Tiny RSS plugin for users of [Tiny Tiny RSS WP8 Client](http://www.windowsp
 ## How it works?
 After enabling the plugin it'll take each new article that Tiny Tiny RSS downloads, scan it and fix it's contents' underlying HTML code so it's shown correctly by the Tiny Tiny RSS WP8 Client.
 
-## What does it fix exaclty?
+## What does it fix exactly?
 Some feeds' HTML code is not formatted in the most correct way and currently the plugin fixes the following issues:
 * When the `iframe` tag is not closed properly (eg. `<iframe.../>` instead of `<iframe...></iframe>`) everything after the `<iframe.../>` tag disappears, so this plugin searches for the `<iframe.../>` self-closed tag and replaces it with the correct `<iframe...></iframe>` tags.
-* Aparently the IE web control in WP does not support urls that don't specify the protocol - like these: `<iframe src="//youtube.com/...">`
-
+* Apparently the IE web control in WP does not support URLs that don't specify the protocol: eg. `<iframe src="//youtube.com/...">`, so this plugin adds the missing protocol string: `<iframe src="https://youtube.com/...">`
 
 ## Compatibility
-Right now the plugin is designed to fix issues that appear in Windows Phone 8.1 IE web control, and is known to work with Tiny Tiny RSS WP8 Client. 
+Right now the plugin is designed to fix issues that appear in Windows Phone 8.1 IE web control, and is known to work with Tiny Tiny RSS WP8 Client. It may fix issues for other WP clients that use the same built-in IE web control. If it does, please notify me so I can add it to the list.
 
+If you're using Windows Phone 8 or 7 and are noticing issues with your feeds please report them too.
