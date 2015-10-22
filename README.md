@@ -1,8 +1,8 @@
 # ttrss-wp_fixes
-Tiny Tiny RSS plugin for users of [Tiny Tiny RSS WP8 Client](http://www.windowsphone.com/de-de/store/app/tiny-tiny-rss-reader/155a2587-ea59-4142-b6bd-db2e98ec2303) that fixes some problems with content rendering. The default built-in IE web control that the Tiny Tiny RSS WP8 Client for showing article content has some quirks that can cause the content not to render correctly. This plugin attempts to fix those articles so they are rendered correctly in the Tiny Tiny RSS WP8 Client.
+Tiny Tiny RSS plugin for users of [Tiny Tiny RSS WP8 Client](http://www.windowsphone.com/de-de/store/app/tiny-tiny-rss-reader/155a2587-ea59-4142-b6bd-db2e98ec2303) that fixes some problems with content rendering. The default built-in IE web control that the Tiny Tiny RSS WP8 Client uses for showing article content has some quirks that can cause the content not to render correctly. This plugin attempts to fix those articles so they are rendered correctly in the Tiny Tiny RSS WP8 Client.
 
 ## Installation
-* Download the plugin to your Tiny Tiny RSS server
+* [Download the plugin](https://github.com/nowotny/ttrss-wp_fixes/archive/master.zip) to your Tiny Tiny RSS server
 * Unzip it to a temporary folder
 * Copy/move the `wp_fixes` folder to the `plugins` directory of your Tiny Tiny RSS installation
 * Enable the `wp_fixes` plugin in Tiny Tiny RSS's `Preferences`
