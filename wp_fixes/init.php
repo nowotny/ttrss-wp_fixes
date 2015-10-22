@@ -20,7 +20,7 @@ class wp_fixes extends Plugin {
 		/* #1: Fix unclosed iframes
 		*/
 		
-		$article['content'] = preg_replace('#(<iframe[^>]+/>)(</[^i][^>]*>)#', '$1</iframe>$2', $article['content']);
+		$article['content'] = preg_replace('#(<iframe[^>]+)/>(</[^i][^>]*>)#', '$1></iframe>$2', $article['content']);
 				
 		/* #1 */
 	
