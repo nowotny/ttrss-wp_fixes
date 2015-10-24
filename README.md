@@ -25,5 +25,9 @@ If you're using Windows Phone 8 or 7 and are noticing issues with your feeds ple
 * Apply the fixes to already downloaded articles.
 
 ## Changelog
+v. 1.1
+* Added a panel in preferences
+* Added an option to apply the fixes to already downloaded articles.
+
 v. 1.0
 * Initial release
